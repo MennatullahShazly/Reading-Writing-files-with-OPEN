@@ -13,6 +13,7 @@ The following table provides an overview of different file modes, their syntax, 
 
 Mode	Syntax	Description
 ‘r’	'r'	Read mode. Opens an existing file for reading. Raises an error if the file doesn't exist.
+
 ‘w’	'w'	Write mode. Creates a new file for writing. Overwrites the file if it already exists.
 ‘a’	'a'	Append mode. Opens a file for appending data. Creates the file if it doesn't exist.
 ‘x’	'x'	Exclusive creation mode. Creates a new file for writing but raises an error if the file already exists.
